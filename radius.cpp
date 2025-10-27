@@ -6,20 +6,16 @@ using namespace std;
 double PI = 3.1416;
 
 double calculateRadius(double a, double b, double c, double d){
-    return sqrt(pow(c - a, 2) + pow(d - b, 2));
-}
+    return sqrt(pow(c - a, 2) + pow(d - b, 2));}
 
 double calculateDiameter(double radius) {
-    return radius*2;
-}
+    return radius*2;}
 
 double calculateCircumference(double radius) {
-    return radius*PI*2;
-}
+    return radius*PI*2;}
 
 double calculateArea(double radius) {
-    return PI*radius*radius;
-}
+    return PI*radius*radius;}
 
 int main() {
     double x1, y1, x2, y2;
@@ -43,6 +39,6 @@ int main() {
     cout << "Circumference : " << circumference << '\n';
     cout << "Area : " << area << '\n';
               
-    return 0;
-}
+    return 0;}
+
 
